@@ -1,5 +1,7 @@
 # craft
 
+[![Release](https://img.shields.io/github/v/release/libnudget/craft?logo=github&label=latest)](https://github.com/libnudget/craft/releases)
+
 An experimental package manager for single-file tools.
 
 craft explores installing tools as single, signed binaries without
@@ -13,7 +15,7 @@ This is an experimental release. The interface is not yet stable.
 ## Installation
 
 ```sh
-cargo install --git https://github.com/libnudget/craft --tag v0.1.0
+cargo install --git https://github.com/libnudget/craft
 ```
 
 ## Usage
