@@ -1,0 +1,12 @@
+[package]
+name = "craft"
+version = "0.1.0"
+edition = "2021"
+description = "An experimental tool for installing software as single, signed binaries."
+license = "MIT"
+repository = "https://github.com/libnudget/craft"
+keywords = ["cli", "experiment"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
